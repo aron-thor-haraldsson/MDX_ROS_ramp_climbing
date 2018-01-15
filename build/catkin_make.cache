@@ -1,0 +1,2 @@
+octomap_mapping/octomap_mapping:octomap_mapping/octomap_server
+-DCATKIN_DEVEL_PREFIX=/media/ronnamura/Data/school/GitBash/ramp_climbing_ws/devel -DCMAKE_INSTALL_PREFIX=/media/ronnamura/Data/school/GitBash/ramp_climbing_ws/install -G Unix Makefiles

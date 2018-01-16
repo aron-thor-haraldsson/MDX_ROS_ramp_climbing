@@ -1,0 +1,10 @@
+<launch>
+  <!-- 3d camera -->
+  <include file="$(find turtlebot_navigation)/launch/includes/gmapping/asus_xtion_pro_gmapping.launch.xml"/>
+
+  <!-- octomap -->
+  <include file="$(find octomap_server)/launch/octomap_mapping.launch"/>
+
+  <!-- Move base -->
+  <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/>
+</launch>

@@ -9,3 +9,5 @@ Imported from SVN, see https://code.google.com/p/alufr-ros-pkg/ for the previous
 
 Ps. This package has been copied to a new repository and will thus not see any more development.
     Please find the original package at https://github.com/OctoMap/octomap_mapping.git
+
+    I found informaiton that helped me add the package here https://github.com/OctoMap/octomap_mapping/issues/30

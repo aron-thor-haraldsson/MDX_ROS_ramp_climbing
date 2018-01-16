@@ -262,7 +262,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/devel;/home/ronnamura/baxter_ws/devel;/home/ronnamura/fix_stage_ws/devel;/opt/ros/kinetic'.split(';')
+        CMAKE_PREFIX_PATH = '/media/ronnamura/Data/school/GitBash/ramp_climbing_ws/devel;/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/devel;/home/ronnamura/baxter_ws/devel;/home/ronnamura/fix_stage_ws/devel;/opt/ros/kinetic'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

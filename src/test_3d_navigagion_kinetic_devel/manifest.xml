@@ -1,0 +1,17 @@
+<package>
+  <description brief="test_3d_navigagion_kinetic_devel">
+
+     test_3d_navigagion_kinetic_devel
+
+  </description>
+  <author>ronnamura</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/test_3d_navigagion_kinetic_devel</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+

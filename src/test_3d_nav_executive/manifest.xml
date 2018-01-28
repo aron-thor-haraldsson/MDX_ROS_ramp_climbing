@@ -1,0 +1,31 @@
+<package>
+  <description brief="test_3d_nav_executive">
+
+    test_3d_nav_executive - Launch files and configuration for 3d_navigation
+  </description>
+  <author>Armin Hornung</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/3d_nav_executive</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+>
+  <depend package="sbpl_lattice_planner_layer_3d" />
+  <depend package="move_base" />
+
+  <depend package="pose_follower_3d" />
+  <depend package="octomap_server" />
+  <depend package="octomap_ros" />
+  <depend package="planning_environment" />
+  <depend package="robot_self_filter" />
+
+<!--
+  <depend package="pr2_common_action_msgs" />
+  <depend package="pr2_tuckarm" />
+  <depend package="pr2_teleop_general" />
+-->
+
+</package>
+
+

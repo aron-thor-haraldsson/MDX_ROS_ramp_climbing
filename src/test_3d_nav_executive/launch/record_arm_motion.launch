@@ -6,7 +6,7 @@
 
   <node pkg="topic_tools" type="throttle" name="throttle_joy" args="messages joy 5.0" />
 
-  <node pkg="3d_nav_executive" type="record_poses" name="record_arm" output="screen" >
+  <node pkg="test_3d_nav_executive" type="record_poses" name="record_arm" output="screen" >
 
     <param name="arm_name" value="right_arm" />
 

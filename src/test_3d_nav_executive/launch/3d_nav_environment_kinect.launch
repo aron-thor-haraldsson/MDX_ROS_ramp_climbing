@@ -1,6 +1,6 @@
 <launch>
 
-  <include file="$(find 3d_nav_executive)/launch/kinect_perception.launch" />
+  <include file="$(find test_3d_nav_executive)/launch/kinect_perception.launch" />
 
 
  
@@ -28,7 +28,7 @@
   	<param name="min_y_size" value="16.0" />
   </node>
 
-  <rosparam command="load" ns="robot_description_planning" file="$(find 3d_nav_executive)/config/pr2_planning_description.yaml" />
+  <rosparam command="load" ns="robot_description_planning" file="$(find test_3d_nav_executive)/config/pr2_planning_description.yaml" />
   <node name="environment_server" pkg="planning_environment" type="environment_server" />
 
 </launch>

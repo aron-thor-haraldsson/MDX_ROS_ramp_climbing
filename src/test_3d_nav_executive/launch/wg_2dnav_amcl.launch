@@ -38,7 +38,7 @@
   <remap from="map" to="map_server_map"/>
   </node>
 
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find 3d_nav_executive)/willow-green-0.025.yaml">
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find test_3d_nav_executive)/willow-green-0.025.yaml">
   	<remap from="map" to="map_server_map"/>
   </node>
 </launch>

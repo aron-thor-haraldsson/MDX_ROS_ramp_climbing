@@ -36,7 +36,7 @@
      
      <param name="subsample_value" type="double" value=".02"/>
      <rosparam command="load" file="$(find pr2_arm_navigation_perception)/config/self_filter.yaml" />
-     <rosparam command="load" file="$(find 3d_nav_gazebo)/config/shadow_filter.yaml" />
+     <rosparam command="load" file="$(find test_3d_nav_gazebo)/config/shadow_filter.yaml" />
   </node>
      
 </launch>

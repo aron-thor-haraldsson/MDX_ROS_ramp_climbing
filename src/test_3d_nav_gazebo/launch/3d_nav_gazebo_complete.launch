@@ -1,5 +1,6 @@
 <launch>
-  <include file="$(find test_3d_nav_gazebo)/launch/gazebo_wg.launch"/>
+  <!-- <include file="$(find test_3d_nav_gazebo)/launch/gazebo_wg.launch"/> -->
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"/>
 
   <include file="$(find test_3d_nav_gazebo)/launch/3d_nav_environment_sim.launch"/>
 

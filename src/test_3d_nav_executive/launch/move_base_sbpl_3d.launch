@@ -1,5 +1,5 @@
 <launch>
-  <include file="$(find pr2_machine)/$(env ROBOT).machine" />
+  <!--<include file="$(find pr2_machine)/$(env ROBOT).machine" /> -->
   <node ns="local_costmap" name="voxel_grid_throttle" pkg="topic_tools" type="throttle" args="messages voxel_grid 3.0 voxel_grid_throttled" />
 
  <node  machine="c1" pkg="move_base" type="move_base" respawn="false" name="move_base_node" output="screen">
@@ -10,7 +10,7 @@
     <!-- <param name="SBPLLatticePlannerLayer3D/primitive_filename" value="$(find sbpl_lattice_planner_layer_3d)/pr2sides.mprim" /> -->
     <param name="SBPLLatticePlannerLayer3D/primitive_filename" value="$(find sbpl_lattice_planner_layer_3d)/3dnav.mprim" />
     
-    <rosparam file="$(find test_3d_nav_executive)/config/pr2_footprint_links.yaml" command="load" ns="SBPLLatticePlannerLayer3D" />
+    <!-- <rosparam file="$(find test_3d_nav_executive)/config/pr2_footprint_links.yaml" command="load" ns="SBPLLatticePlannerLayer3D" /> -->
 
 
     <rosparam file="$(find test_3d_nav_executive)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />

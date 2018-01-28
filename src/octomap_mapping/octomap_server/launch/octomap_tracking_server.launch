@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="path" default=""/>
+  <arg name="path" default="$(env OCTOMAP_FILE)"/>
   <arg name="changeIdFrame" default="/talker/changes"/>
 
 	<!-- you can load an exisiting tree with <node ... args="tree.bt"> !-->

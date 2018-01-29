@@ -28,8 +28,8 @@ Requirements/Installation:
 
 Usage:
 
-When everything is set up as described in the above steps,
-perform the following steps to use the package:
+
+Perform the following steps to create a map:
 - roslaunch octomap_server octomapping_in_simulation.launch
 
 Gazebo simulation will open to show the simulated world.
@@ -37,6 +37,18 @@ Rviz will open to show you the 3d map that is being created
 of the simulated world.
 A new terminal has opened where you can teleoperate the turtlebot
 using your keyboard.
+
+
+Perform the following steps to create a map:
+- roslaunch octomap_server octomap_in_simulation.launch
+
+Gazebo simulation will open to show the simulated world.
+Rviz will open to show you the 3d map that was loaded
+from the default bt file.
+A new terminal has opened where you can teleoperate the turtlebot
+using your keyboard.
+
+
 
 
 Maintainers:

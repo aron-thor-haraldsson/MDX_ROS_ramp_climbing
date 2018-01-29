@@ -11,9 +11,6 @@
   <!-- View in Rviz -->
   <include file="$(find octomap_server)/launch/added/view_octomapping.launch"/>
 
-  <!-- Move base
-  <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/> -->
-
   <!-- Teleoperate -->
   <node name="new_terminal_teleop" pkg="octomap_server" type="keyboard_teleop.sh" />
 </launch>

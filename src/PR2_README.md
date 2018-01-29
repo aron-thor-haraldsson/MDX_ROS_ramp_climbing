@@ -1,3 +1,6 @@
+This README applies to the packages sbpl_lattice_planner_3d, 3d_nav_executive,
+3d_nav_gazebo, pose_follower_3d and octomap_collision_check.
+
 3d_navigation
 =============
 

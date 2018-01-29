@@ -1,0 +1,15 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+\b using_gmapping_amcl_pkg
+
+<!--
+The purpose of this package is to use 2d mapping/navigation
+to attempt to create and use maps of areas with elevations/ramps.
+-->
+
+-->
+
+
+*/

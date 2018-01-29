@@ -1,0 +1,17 @@
+<package>
+  <description brief="using_gmapping_amcl_pkg">
+
+     using_gmapping_amcl_pkg
+
+  </description>
+  <author>ronnamura</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>chttps://codelab.mdx.ac.uk/AH1534/ramp_climbing_ws</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+

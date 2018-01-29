@@ -1,0 +1,281 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set_",
+				"set_frame_dimensions"
+			],
+			[
+				"get_",
+				"get_search_for_shape"
+			],
+			[
+				"_pref",
+				"_preferred_shape"
+			],
+			[
+				"_contour",
+				"_contour_center_h"
+			],
+			[
+				"_contour_c",
+				"_contour_center_w"
+			],
+			[
+				"webcam",
+				"webcam_index_arg"
+			],
+			[
+				"get_ima",
+				"get_image"
+			],
+			[
+				"get_im",
+				"get_image"
+			],
+			[
+				"get_image",
+				"get_image_dimensions"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 132.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"GitSavvy: help"
+			],
+			[
+				"add",
+				"git: add (edit)"
+			],
+			[
+				"status",
+				"git: status"
+			],
+			[
+				"branch",
+				"git: branch"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 479.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ronnamura/Desktop/Link to GitBash/ramp_climbing_ws"
+	],
+	"file_history":
+	[
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/README.md",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/physical_environment.md",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/user_interface.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/track_shape.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/move_message_generator.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/process_images.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/relearn_model.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/cartesian_movement_test.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/cartesian_movement.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/baxter.sh",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/launch/baxter_pick_place.launch",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/summary_of_files.md",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/README.md",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/numpy_shape_test.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/converge.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/knn_model.sav",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/src/baxter_pick_place_pkg/src/camera_test.py",
+		"/media/ronnamura/Data/school/GitBash/baxter_pick_place_ws/baxter_pick_place_sublime_project",
+		"/home/ronnamura/sublime_tutorial/index_example.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/ronnamura/Desktop/Link to GitBash/ramp_climbing_ws"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 241.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

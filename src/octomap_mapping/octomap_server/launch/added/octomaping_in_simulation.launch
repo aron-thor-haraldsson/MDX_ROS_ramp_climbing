@@ -1,0 +1,19 @@
+<launch>
+  <!-- launches the simulated world -->
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"/>
+
+  <!-- get sensors online -->
+  <include file="$(find turtlebot_gazebo)/launch/gmapping_demo.launch"/>
+
+  <!-- octomap -->
+  <include file="$(find octomap_server)/launch/octomap_mapping.launch"/>
+
+  <!-- View in Rviz -->
+  <include file="$(find octomap_server)/launch/added/view_octomapping.launch"/>
+
+  <!-- Move base
+  <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/> -->
+
+  <!-- Teleoperate -->
+  <node name="new_terminal_teleop" pkg="octomap_server" type="keyboard_teleop.sh" />
+</launch>
